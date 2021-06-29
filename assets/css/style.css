@@ -89,7 +89,7 @@ main {
 
 .hero-banner {
   background: rgb(68, 88, 120);
-  background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background-image: url("../images/01-portfolio-01.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode: soft-light;
@@ -222,23 +222,23 @@ main {
 
 /* portfolio project images */
 .run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
+  background-image: url("../images/01-portfolio-01-buddy.jpg");
 }
 
 .led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/01-portfolio-01.jpg");
 }
 
 .react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/01-portfolio-01.jpg");
 }
 
 .pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("../01-portfolio-01.jpg");
 }
 
 .surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../01-portfolio-01.jpg");
 }
 
 /* end portfolio project images */
@@ -278,11 +278,11 @@ main {
 
 @media screen and (max-width: 768px) {
   .flex-item,
-  .flex-item:first-child {
+  .flex-item:two-boys {
     flex-basis: 100%;
   }
 
-  .flex-item:first-child {
+  .flex-item:two-boy {
     min-height: 150px;
   }
 
