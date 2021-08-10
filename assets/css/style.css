@@ -82,6 +82,9 @@ nav a:last-child {
   margin-right: 0;
 }
 
+#guidedoc {
+    padding: 10px;
+}
 main {
   margin-top: 20px;
   margin-bottom: 45px;
@@ -107,8 +110,7 @@ main {
 }
 
 .hero-banner h2 {
-  background-color: var(--secondary);
-  color: var(--tertiary);
+  color: whitesmoke;
   margin: 0;
   padding: 5px 10px;
   font-size: 2.3rem;
@@ -178,13 +180,18 @@ main {
     min-height: 400px;
     flex-basis: 100%;
 }
+.flex-item:last-child {
+  min-height: 400px;
+  flex-basis: 100%;
+}
+
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .flex-item div {
-  background-color: var(--secondary);
+  color: white;
   padding: 8px 10px;
 }
 
@@ -221,25 +228,22 @@ main {
 }
 
 /* portfolio project images */
-.run-buddy {
-  background-image: url("../images/01-portfolio-01-buddy.jpg");
+.hero-banner {
+  background-image: url("../img/guide-w-drills.jpg");
 }
 
-.led-wall {
-  background-image: url("../images/01-portfolio-01.jpg");
+.guide-surgery  {
+  background-image: url("../img/zirconia-drill.jpg");
 }
 
-.react-calc {
-  background-image: url("../images/01-portfolio-01.jpg");
+.x-ray {
+  background-image: url("../img/guide-handson.png");
 }
 
-.pastel-puzzles {
-  background-image: url("../01-portfolio-01.jpg");
+.scanner {
+  background-image: url("../img/promotion-scanner.jpg");
 }
 
-.surf-report {
-  background-image: url("../01-portfolio-01.jpg");
-}
 
 /* end portfolio project images */
 
