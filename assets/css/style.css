@@ -69,7 +69,7 @@ nav a {
   background-size: 100% 0.2em;
   background-position: bottom;
   transition: all 0.25s ease-in;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
 }
 
 nav a:hover {
@@ -91,7 +91,7 @@ main {
 }
 
 .hero-banner {
-  background: rgb(68, 88, 120);
+  background: rgb(68, 77, 77);
   background-image: url("../images/01-portfolio-03.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
@@ -113,7 +113,7 @@ main {
   color: whitesmoke;
   margin: 0;
   padding: 5px 10px;
-  font-size: 2.3rem;
+  font-size: 8.3rem;
   line-height: 1.2;
   display: inline;
 }
@@ -172,7 +172,7 @@ main {
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* feature first portfolio item */
@@ -244,8 +244,8 @@ main {
   background-image: url("../img/guide-handson.png");
 }
 
-.scanner {
-  background-image: url("../img/promotion-scanner.jpg");
+.resume {
+  background-image: url("../img/resume.png");
 }
 
 
@@ -265,8 +265,15 @@ main {
     font-size: 10vw;
   }
 
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
   header nav {
-    justify-content: center;
+    justify-content: left;
   }
 
   .page-section > h2,
