@@ -45,11 +45,11 @@ header {
 }
 
 header h1 {
-  color: var(--secondary);
+  color: var(--light);
   background-color: var(--primary);
   padding: 5px 1% 5px 6%;
   margin: 0;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1;
 }
 
@@ -62,14 +62,14 @@ nav {
 nav a {
   text-decoration: none;
   padding: 5px 10px;
-  color: var(--secondary);
+  color: white;
   margin-right: 10px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
   transition: all 0.25s ease-in;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 nav a:hover {
