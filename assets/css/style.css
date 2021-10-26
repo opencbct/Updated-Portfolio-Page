@@ -163,6 +163,8 @@ main {
   color: var(--tertiary);
   min-height: 150px;
   max-height: 150px;
+  min-height: 400px;
+  flex-basis: 100%;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -232,16 +234,16 @@ main {
   background-image: url("../img/zirconia-drill.jpg");
 }
 
-.professionalexperience  {
+.guide-surgery  {
   background-image: url("../img/logo-round.jpeg");
 }
 
 .undergradeexperience  {
-  background-image: url("../img/guide-w-implant.jpg");
+  background-image: url("../img/resumebackground.jpg");
 }
 
 .x-ray {
-  background-image: url("../img/guide-handson.png");
+  background-image: url("../img/xray-pano.png");
 }
 
 .resume {
