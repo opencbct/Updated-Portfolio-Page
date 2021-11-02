@@ -45,11 +45,11 @@ header {
 }
 
 header h1 {
-  color: var(--light);
+  color: black;
   background-color: var(--primary);
   padding: 5px 1% 5px 6%;
   margin: 0;
-  font-size: 3vw;
+  font-size: 2.0vw;
   line-height: 1;
 }
 
@@ -69,7 +69,7 @@ nav a {
   background-size: 100% 0.2em;
   background-position: bottom;
   transition: all 0.25s ease-in;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 nav a:hover {
@@ -113,7 +113,7 @@ main {
   color: whitesmoke;
   margin: 0;
   padding: 5px 10px;
-  font-size: 8.3rem;
+  font-size: 5.3rem;
   line-height: 1.2;
   display: inline;
 }
@@ -247,7 +247,11 @@ main {
 }
 
 .resume {
-  background-image: url("../img/resumebackground.png");
+  background-image: ("../assets/resume/resume.pdf");
+}
+
+.icon { 
+  font-size: 30px;
 }
 
 
@@ -257,7 +261,7 @@ main {
   header {
     padding: 0 0 10px 0;
     justify-content: center;
-    text-align: center;
+    text-align: left;
   }
 
   header h1 {
@@ -289,7 +293,7 @@ main {
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: left;
-    font-size: 7vw;
+    font-size: 5vw;
   }
 }
 
