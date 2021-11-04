@@ -95,7 +95,6 @@ main {
   background-image: url("../images/zirconia-drill.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
   background-size: cover;
   background-position: center;
-  background-blend-mode: soft-light;
   min-height: 30vh;
   color: var(--light);
   padding: 2% 6%;
@@ -234,20 +233,35 @@ main {
   background-image: url("../img/zirconia-drill.jpg");
 }
 
-.guide-surgery  {
-  background-image: url("../img/logo-round.jpeg");
+
+/* 
+body {
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-color: #cccccc;
+}
+*/
+
+
+.professtionalExperience {
+  background-image: url("../img/guide-w-implant.jpg");
+  height:auto;
+  background-position: center;
 }
 
-.undergradeexperience  {
+.underGradeExperience {
   background-image: url("../img/resumebackground.jpg");
+  height:auto;
+  background-position: center;
 }
 
-.x-ray {
+.specialSkillAndExperience {
   background-image: url("../img/xray-pano.png");
+  height:auto;
+  background-position: center;
 }
 
 .resume {
-  background-image: ("../assets/resume/resume.pdf");
+  background-image: url("");
 }
 
 .icon { 
