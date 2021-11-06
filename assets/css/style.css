@@ -261,7 +261,9 @@ body {
 }
 
 .resume {
-  background-image: url("");
+  background-image: url("../img/logo-guidedoc.jpeg");
+  height:auto;
+  background-position: center;
 }
 
 .icon { 
